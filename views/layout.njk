@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    {% block head %}
+        <title>Desafio 3-1</title>
+    {% endblock %}
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="icon"
+        href="https://raw.githubusercontent.com/rocketseat-education/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Sobre</a>
+            <a href="https://discordapp.com/invite/gCRAFhc" target="_blank">Comunidade</a>
+            <a href="/contents">Conteúdos</a>
+            <a href="mailto:oi@rocketseat.com.br" target="_blank">Email</a>
+            <a href="tel:+5547992078767" target="_blank">Telefone</a>
+        </div>
+    </header>
+
+    {% block content %} {% endblock %}
+
+</body>
+
+</html>
